@@ -1,9 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MyPage from "./components/MyPage/MyPage";
+
+const user = {
+  name: "woosang",
+};
 
 function App() {
   return (
     <div className="App">
+      <MyPage user={user} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
